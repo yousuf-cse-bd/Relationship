@@ -1,0 +1,1 @@
+package Relationship;public class Main {    public static void main(String[] args) {        Maruti marutiCar = new Maruti();        marutiCar.setColor("Red");        marutiCar.setMaxSpeed(180);        marutiCar.carInfo();        marutiCar.marutiStart();    }}

@@ -1,0 +1,1 @@
+/*** * Is-A relationship and Has-A relationship example */package Relationship;public class Maruti extends Car{ /*Maruti IS-A car*/    public Maruti(){}    public void marutiStart(){        /*Maruti HAS-A Engine*/        Engine marutiEngine = new Engine();        marutiEngine.start();    }}
